@@ -1,17 +1,20 @@
-# ALSKwela JHS LS2 Science — Existing GitHub repository UPDATE v2.0
+# ALSKwela JHS_LS2_Science — Three-Section PDF Report v3.3
 
-**IMPORTANT:** This update is for your EXISTING JHS LS2 Science repository. Do not create a new repo. The deployed URL, app name and app ID stay the same.
+## Changes
+- Performance Snapshot (scores and domain results)
+- Let's Learn From Mistakes (missed questions, your selected answer, correct answer, Taglish explanation, LC review hint)
+- What I Already Know (correct answers and short explanations)
+- Removed Review Priorities and Personal Study Plan
+- No permanent update banner. A small optional 'Check updates' link is in the footer.
+- Same 120-item question bank, app name, and saved-progress keys as the source package.
+- Network-first HTML while connected, offline cached copy when disconnected.
 
-1. Export/finish unfinished practice sessions on learner devices before updating. The app saves progress locally.
-2. Back up your current GitHub repository before replacing files.
-3. Extract this ZIP, then in your current repository choose **Add file > Upload files** and upload these six files directly into the repository ROOT: `index.html`, `sw.js`, `manifest.webmanifest`, `icon-192.png`, `icon-512.png`, `.nojekyll`. Replace same-named files.
-4. Commit the files to the branch used by Pages (usually `main`). Do not upload the ZIP as the site's index.
-5. Allow GitHub Pages to publish the updated files. Open the same ALSKwela link directly in Android Chrome while online, reload twice, then close/reopen the installed app.
-6. Verify the message **Offline files saved successfully**, start a NEW randomized trial, answer several questions, and test the PDF export in airplane mode.
-7. If the old version continues appearing, close all open app tabs, revisit the website online, refresh, then reopen the Home Screen app. Avoid uninstalling or clearing browser data until any unfinished work is exported.
+## Update existing GitHub Pages repository
+1. Download this ZIP, then **extract** it.
+2. Upload the extracted files to your existing repository **root** (replace matching files); do not upload the ZIP itself.
+3. Commit to the branch used by GitHub Pages.
+4. Open /verify-update-v3.html on that published repository in Chrome while online.
+5. Tap 'Check and activate v3.3', then 'Open Reviewer'.
+6. Finish or save existing trials before updating. Verify the PDF and airplane-mode use.
 
-## Notes
-- v2 has 120 questions. Correct-answer letters and competency mappings are unchanged; 85 items have improved option wording or scientific-precision edits.
-- A question bank is a draft until assessed by subject experts and tested with actual learners.
-- PWA files include embedded question data; no additional JSON file is needed for offline access.
-- Standalone HTML and Excel/CSV/JSON question bank are distributed separately from this GitHub ZIP.
+To avoid losing learner responses, do not clear Chrome site storage.
