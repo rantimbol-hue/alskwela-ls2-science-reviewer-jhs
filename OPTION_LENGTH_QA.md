@@ -1,10 +1,9 @@
-# JHS LS2 Science — Option-Length QA v2.0
+# LS6 Digital Citizenship - Option-Length QA
 
-- Original: correct answer averaged 6.03 words; distractor averaged 4.62 words.
-- Revised: correct answer averages 7.15 words; distractor averages 6.92 words.
-- Correct answer uniquely longest: 46/120 before; **25/120 after**.
-- Correct answer uniquely shortest: 14/120 after.
-- Max within-item difference: 4 words; items exceeding five words: 0.
-- Items touched: 85. Intended answers and original answer-letter keys retained.
-- Science stem precision updates: item 019 (DNA mutation wording), item 037 (hanging wall for fault), item 049 (equilibrium solubility, not dissolution speed).
-- No claims of item calibration: teacher review and learner pilot testing remain necessary.
+- 90 original multiple-choice items (3 sets of 30); 20 competencies in all sets.
+- Domain distribution per set: Introduction to Computer 8; File Management 3; Productivity Software 8; Digital Network 4; Health/Safety 3; Block Coding 4.
+- Difficulty per set: Easy 9, Moderate 15, Challenging 6.
+- Answer positions per set: A 8, B 7, C 8, D 7.
+- Average correct option: 7.78 words; average distractor: 7.47 words.
+- Correct option uniquely longest: 24/90; maximum within-item spread: 3 words.
+- These are preliminary structural checks only. Teacher review and pilot testing are necessary.

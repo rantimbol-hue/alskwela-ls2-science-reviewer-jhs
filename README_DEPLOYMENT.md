@@ -1,28 +1,26 @@
-# ALSKwela A&E 2027 — JHS LS2 Science Offline Reviewer
+# ALSKwela Elementary LS6 - GitHub Pages Deployment
 
-## App name
-Full installed app name: **JHS ALS A&E Reviewer LS 2 - Science**  
-Home Screen shortened label: **JHS A&E LS2 Science**
+App name: **Elementary ALS A&E Reviewer LS 6 - Digital Citizenship**  
+Home Screen label: **Elem A&E LS6 Digital**
 
-## Upload to GitHub Pages
-1. Create a NEW GitHub repository e.g. `alskwela-ls2-science-reviewer-jhs`.
-2. Extract this ZIP, then upload `index.html`, `manifest.webmanifest`, `sw.js`, `icon-192.png`, `icon-512.png`, and `.nojekyll` directly to the **root** of that repository; do NOT upload the ZIP itself.
-3. GitHub → repository → Settings → Pages → Deploy from a branch → main / (root).
-4. In the ALSKwela Glide App create a card with Open Link to the deployed GitHub Pages HTTPS URL.
-5. Learners open the URL DIRECTLY in Chrome, confirm `Offline files saved successfully`, then install/add Home Screen. Airplane-mode test before rollout.
+## Publish online
 
-## Reviewer behavior
-- 120 unique science multiple-choice questions, one correct choice among A-D.
-- Three fixed sets of 40, each 12 Easy / 20 Moderate / 8 Challenging, with 40 different LC codes per set.
-- Balanced Random 40: chooses 40 of 46 LC codes and respects 12/20/8 difficulty targets; prioritizes less-seen questions over successive trials.
-- English questions; professional Taglish explanation, positive and encouraging feedback.
-- Progress saved locally and PDF report made on device (optionally include explanations). Works offline after first successful caching.
-- No learner account, data transmission, or teacher dashboard. Device storage can be cleared; retain PDF reports.
+1. Create a new public GitHub repository called `alskwela-ls6-digital-reviewer-elementary`.
+2. Unzip the deployment package on your computer. Upload the extracted files into the **root** of your repository, not inside an extra folder. Required files: `index.html`, `manifest.webmanifest`, `sw.js`, `icon-192.png`, `icon-512.png`, `.nojekyll`.
+3. Commit on the `main` branch.
+4. In **Settings > Pages**, choose **Deploy from a branch** and select `main` with `/(root)`.
+5. Copy your HTTPS Pages link into the ALSKwela (Glide) Open Link action.
 
-## Academic and data limitations
-- Mock practice only, not official BEA test items and not a validated prediction of the 2027 A&E.
-- Item difficulty classification is provisional; field test is recommended.
-- Some scientific inquiry and performance competencies are approximated via MCQs, which cannot replace performance assessments.
-- App must be served via HTTPS for service-worker offline use; a file:// standalone HTML copy does not install as a PWA.
-- When revising content, increment the cache version in BOTH `sw.js` and `index.html` to force a new offline bundle.
-- For GitHub Pages hosting within one account, different repositories have different path scopes; each reviewer uses its own IDs, storage keys, and cache prefix.
+## Install and test offline (Android)
+
+1. Open the Pages link directly in Chrome while online, not just in Glide's embedded view.
+2. Refresh once and check for **Offline files saved successfully**.
+3. Use Chrome's menu > **Install app** or **Add to Home Screen**. A Chrome shortcut may still function offline if cached.
+4. Turn on airplane mode, open the Home Screen app/shortcut, take a practice trial and export a PDF report.
+5. If caching fails, confirm all required files exist in the repository root; load online and refresh again.
+
+## Student privacy and maintenance
+
+The 90 items are embedded in index.html. Progress stays in the phone's browser storage; nothing is uploaded to a teacher dashboard. The PDF is generated locally. Do not clear site data or uninstall before downloading reports from unfinished trials. Teacher validation, item analysis, and real-device testing are required before release.
+
+For future content updates, upload updated index.html and increment CACHE name in both index.html and sw.js. Keep the existing manifest ID and application name to retain the installed app identity.
