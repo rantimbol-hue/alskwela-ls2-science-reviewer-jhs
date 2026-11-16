@@ -1,5 +1,5 @@
 /* ALSKwela JHS LS2 Science - offline-first service worker (app-specific cache). */
-const CACHE='alskwela-ae2027-jhs-ls2science-v1-20261116';
+const CACHE='alskwela-ae2027-jhs-ls2science-v2-20261116';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('alskwela-ae2027-jhs-ls2science-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
