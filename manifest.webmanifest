@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "JHS ALS A&E Reviewer LS 2 - Science",
+  "short_name": "JHS A&E LS2 Science",
+  "description": "JHS LS2 Scientific and Critical Thinking Skills - 120 A&E-style practice questions, Taglish feedback, offline access, PDF reporting.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6fa",
+  "theme_color": "#12243a",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
